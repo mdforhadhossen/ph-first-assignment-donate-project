@@ -1,0 +1,26 @@
+
+
+body{
+    font-family: 'Finlandica', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.heading-top{
+    font-size: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    color: orangered;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    color: darkgray;
+}
+.button-header{
+    text-decoration: none;
+    background-color: orangered;
+    color:white;
+    text-align: center;
+    margin-left: 46%;
+}
