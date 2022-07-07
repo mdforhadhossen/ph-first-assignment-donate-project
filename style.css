@@ -1,26 +1,268 @@
+*{
+	margin:0;
+	padding:0;
 
-
+}
 body{
     font-family: 'Finlandica', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
-.heading-top{
+.header-area{
+    background-image: url(images/donation11.jpg);
+    height: 500px;
+    background-position: center center;
+     background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    position: relative;
+    opacity:0.8;
+    
+}
+.header-text{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 12%;
+
+
+}
+h1{
     font-size: 50px;
+    text-align: center;
     margin-left: 25%;
     margin-right: 25%;
-    margin-top: 5%;
-    color: orangered;
-    text-align: center;
+    color:  #ff4d4d;
+    margin-bottom: 30px;
+    font-weight: 700;
 }
 p{
     font-size: 20px;
     text-align: center;
-    color: darkgray;
+    color:gray;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 40px;
 }
-.button-header{
-    text-decoration: none;
-    background-color: orangered;
+.header-text p{
     color:white;
-    text-align: center;
-    margin-left: 46%;
 }
+
+.button-header{
+    text-align: center;
+    text-decoration: none;
+    background: linear-gradient(45deg, tomato,red);
+    color: white;
+    padding: 10px 20px;
+    margin-left: 45%;
+  
+    border-radius: 5px;
+}
+.donate-section{
+    margin-top: 100px;
+}
+.payment-area{
+    margin-left: 15%;
+    margin-right: 15%;
+    overflow: hidden;
+}
+.donate-text p{
+    color:black;
+}
+.col-4{
+    margin-left: 30px;
+    float: left;
+    width: 15%;
+}
+
+.inbox{
+    background-color:#f0f5f5;
+    height: 110px;
+    width: 135px;
+    border-radius: 5px;
+    position: relative;
+}
+.inbox a{
+    position: absolute;
+    margin: 40px 40px;
+    color:  #788787;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+}
+.amount-boxes .inbox:hover{
+    border: 2px solid red;
+    color: red;
+    background-color: #ff9999;
+    
+}
+.inbox:hover{
+    color:red;
+}
+.amount-form{
+   text-align: center;
+   margin-top: 50px;
+   margin-left: 18%;
+   margin-right: 18%;
+}
+.donate-button{
+    text-align: center;
+    text-decoration: none;
+    background: linear-gradient(45deg, tomato,red);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style:hidden;
+    font-size:20px;
+    width:200px;
+    height:30px;
+    margin-bottom: 5px;
+  }
+  .donate-form{
+    border-bottom: 2px solid gray;
+    margin-bottom: 15px;
+  }
+  .no-outline:focus {
+    outline: none;
+  }
+ ::placeholder{
+    text-align: left;
+    font-size:20px;
+ }
+ .donate-plan-section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    overflow: hidden;
+ }
+ .donate-plan-full-div{
+    margin-left: 120px;
+    margin-right: 120px;
+ }
+
+.col-3{
+    margin-left: 30px;
+    float: left;
+}
+.donate-plan-box{
+   height: 300px;
+   width:330px;
+   background-color: #e6ffff;
+   position:relative
+}
+.donate-plan-inbox{
+    position:absolute;
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+.donate-plan-inbox p{
+    text-align: left;
+}
+h2{
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+span{
+    font-size:16px;
+    color:gray;
+
+}
+.content-area{
+    margin-bottom: 100px;
+}
+.content-row{
+    margin-left: 10%;
+    margin-right: 10%;
+    overflow: hidden;
+}
+.lift-content{
+    float: left;
+    height:auto;
+    width:50%;
+    overflow: hidden;
+    margin-top:65px;
+}
+.lift-content h3{
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+.lift-content p{
+    margin-right: 10px;
+    margin-left: 0;
+    text-align: left;
+    margin-top: 20px;
+}
+.button{
+    text-decoration: none;
+    background: linear-gradient(45deg, tomato,red);
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.right-image{
+   float:right;
+   width: 45%;
+   height:450px;
+   overflow: hidden;
+}
+.content-2{
+    margin-top: 100px;
+}
+.content-row2{
+    margin-left: 10%;
+    margin-right: 10%;
+    overflow: hidden;
+}
+
+.right-content{
+    float: right;
+    width:45%;
+    margin-top:65px;
+}
+.left-image{
+    float: left;
+    height: 450px;
+    width: 45%;
+    overflow: hidden;
+}
+.right-content h3{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.right-content p{
+    margin-left: 0;
+    text-align: left;
+}
+.footer{
+    background-color: black;
+    height:150px;
+    width:100%;
+    margin-top: 100px;
+    position: relative;
+}
+h4{
+    position: absolute;
+    color:#ff4d4d;
+    text-align: center;
+    margin-top: 45px;
+    margin-left: 45%;
+    font-size: 30px;
+}
+.footer span{
+    position: absolute;
+    text-align: center;
+    margin-top: 85px;
+    margin-left: 45%;
+}
+}
+
