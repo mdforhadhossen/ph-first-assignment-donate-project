@@ -159,6 +159,12 @@ input {
     margin-left: 15px;
     margin-right: 5px;
 }
+#color-2{
+    background-color: #ffccff;
+}
+#color-3{
+    background-color: #ffdab3;
+}
 .donate-plan-inbox p{
     text-align: left;
 }
